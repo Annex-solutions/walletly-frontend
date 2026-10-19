@@ -1,0 +1,12 @@
+{
+  "name": "walletly-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:landing": "npm run dev --workspace=apps/landing",
+    "build:landing": "npm run build --workspace=apps/landing"
+  }
+}
